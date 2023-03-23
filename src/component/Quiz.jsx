@@ -64,24 +64,19 @@ const Next_btn=Styled.button`
         setcurquestion(curquestion)
         setstop(true)
         // settimer(0)
-        setselectans(0)
         clearInterval(interval)
       }
     else if(timer===0){
-      setselectans(0)
       setcurquestion(curquestion+1)
     }
    
-
       return ()=> clearInterval(interval);
        
   },[timer])
  
 useEffect(()=>{
-  
+  setselectans(0)
     settimer(10)
-  
-
 },[curquestion])
    return (
     <div>
