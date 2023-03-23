@@ -116,7 +116,7 @@ useEffect(()=>{
             })
           }
           {
-            curquestion===Quizdata.length-1?<Next_btn className='btn option  btn-outline-success me-3 ms-3 mt-4 ' onClick={()=>nexthandler()}>Submit quiz</Next_btn>:<Next_btn className='btn option btn-outline-warning me-5 ms-5 mt-4 ' onClick={()=>nexthandler()}>Next</Next_btn>
+            curquestion===Quizdata.length-1?<Next_btn className='btn option  btn-outline-success me-3 ms-3 mt-4 ' onClick={()=>nexthandler()}>Submitt quiz</Next_btn>:<Next_btn className='btn option btn-outline-warning me-5 ms-5 mt-4 ' onClick={()=>nexthandler()}>Next</Next_btn>
           }
       
         </div>
