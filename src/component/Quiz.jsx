@@ -64,9 +64,11 @@ const Next_btn=Styled.button`
         setcurquestion(curquestion)
         setstop(true)
         // settimer(0)
+        setselectans(0)
         clearInterval(interval)
       }
     else if(timer===0){
+      setselectans(0)
       setcurquestion(curquestion+1)
     }
    
