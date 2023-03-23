@@ -15,7 +15,7 @@ export function Result({score,total,playagain}) {
           Total Score:{total}
         </h2>
         
-        <button className='btn  btn-outline-success me-3 ms-3 mt-4 option ' onClick={()=>{playagain()}}>Play Again</button>
+        <button className='btn  btn-outline-success me-3 ms-3 mt-4 option ' onClick={()=>{playagain()}}>Play Aagain</button>
         </div>
         </div>
     </>
