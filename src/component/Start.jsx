@@ -17,7 +17,7 @@ export function Start() {
   return (
     <>
       <Startbtn className='container d-flex justify-content-center '>
-        <button className='btn btn-outline-primary' onClick={()=>{navigate("/quiz")}}>Strattt Quize</button>
+        <button className='btn btn-outline-primary' onClick={()=>{navigate("/quiz")}}>Strat Quize</button>
       </Startbtn>
     </>
   )
